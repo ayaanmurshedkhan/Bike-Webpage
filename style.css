@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(31, 41, 55);
+    cursor: var(--normal);
+}
+.head {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    padding: 10px;
+    font-size: 28px;
+    font-weight: 850;
+}
+.logo span {
+    letter-spacing: 5px;
+    background-image: linear-gradient(43deg, #4158D0 0%, #c850c0 46%, #ffcc70 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav li {
+    height: 50px;
+}
+nav a {
+    height: 100%;
+    font-size: 17px;
+    font-weight: 680;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #d04a4a1a;
+    cursor: var(--pointer);
+}
+nav a:hover {
+    color: #e87171;
+}
+
+.section1 {
+    height: 80vh;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.textarea {
+    height: 50vh;
+    width: 50vh;
+    color: #fff;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.bike {
+    background-image: linear-gradient(43deg,#7a00ffdf,#ff0000df,#ff7300df,#ff00c8df,#ff0000df,#ff7300df);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.textarea h1 {
+    letter-spacing: 3px;
+}
+.textarea p {
+    letter-spacing: 1px;
+}
+.textarea button {
+    height: 40px;
+    width: 100px;
+    background-color: #d04a4a;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 2px;
+}
+.textarea button:hover {
+    cursor: var(--pointer);
+    box-shadow: 0px 0px 10px #c28484;
+}
+.image {
+    height: 50vh;
+    width: 80vh;
+    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bike_image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0px 4px 8px 0px rgba(233, 166, 166, 0.2), 0 6px 20px 0 rgba(229, 177, 177, 0.19);
+}
+html {
+    --pointer: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/pointer.png) 12 7, auto;
+    --normal: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/cursur.png) 4 11, auto;
+}
+
+.section2 {
+    height: 150vh;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    gap: 60px;
+}
+.bikeimage {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.bikearea {
+    height: 315px;
+    width: 250px;
+}
+.bikearea:hover {
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+}
+.bikeimage1 {
+    height: 200px;
+    width: 240;
+    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120%;
+}
+.bikeimage2 {
+    height: 200px;
+    width: 240;
+    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+}
+.bikeimage3 {
+    height: 200px;
+    width: 240;
+    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage3.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 109%;
+}
+.bikeimage4 {
+    height: 200px;
+    width: 240;
+    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 140%;
+}
+.bikeimage5 {
+    height: 200px;
+    width: 240;
+    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage5.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.bikeimage6 {
+    height: 200px;
+    width: 240;
+    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage7.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 119.5%;
+}
+.bikeimage7 {
+    height: 200px;
+    width: 240;
+    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage8.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 104%;
+}
+.bikeimage8 {
+    height: 200px;
+    width: 240;
+    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage4.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 119.5%;
+}
+.biketext {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.biketext span {
+    font-weight: 500;
+}
+.biketext button {
+    height: 38px;
+    width: 220px;
+    color: #d04a4a;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+    border: 2px solid #d04a4a;
+}
+.biketext button:hover {
+    cursor: var(--pointer);
+    color: #fff;
+    background-color: #d04a4a;
+    transition: 0.6s;
+}
+
+.section3 {
+    height: 100vh;
+    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/background_img35.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* filter: blur(2px); */
+}
+.popularbrand {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 300;
+}
+.brandarea{
+    display: flex;
+}
+.brand {
+    height: 125px;
+    width: 180px;
+    background-color: #fff;
+    margin-left: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div .brand img {
+    size: 100%;
+}
+.footer {
+    height: 10vh;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}
