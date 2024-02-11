@@ -90,19 +90,19 @@ nav a:hover {
 }
 .textarea button:hover {
     cursor: var(--pointer);
-    box-shadow: 0px 0px 10px #c28484;
+    box-shadow: 0px 0px 5px #c28484;
 }
 .image {
     height: 50vh;
     width: 80vh;
-    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bike_image.jpg);
+    background: url(file:///C:/Users/ayaan/Desktop/project/Bike-Webpage/image/bike_image.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     box-shadow: 0px 4px 8px 0px rgba(233, 166, 166, 0.2), 0 6px 20px 0 rgba(229, 177, 177, 0.19);
 }
 html {
-    --pointer: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/pointer.png) 12 7, auto;
-    --normal: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/cursur.png) 4 11, auto;
+    --pointer: url(file:///C:/Users/ayaan/Desktop/project/Bike-Webpage/image/pointer.png) 12 7, auto;
+    --normal: url(file:///C:/Users/ayaan/Desktop/project/Bike-Webpage/image/cursur.png) 4 11, auto;
 }
 
 .section2 {
@@ -131,67 +131,67 @@ html {
 }
 .bikeimage1 {
     height: 200px;
-    width: 240;
-    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage1.jpg);
+    width: 230px;
+    background: url(file:///C:/Users/ayaan/Desktop/project/Bike-Webpage/image/bikeimage5.avif);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 120%;
+    background-size: 100%;
 }
 .bikeimage2 {
     height: 200px;
-    width: 240;
-    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage2.jpg);
+    width: 230px;
+    background: url(file:///C:/Users/ayaan/Desktop/project/Bike-Webpage/image/bikeimage5.avif);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 110%;
+    background-size: 100%;
 }
 .bikeimage3 {
     height: 200px;
-    width: 240;
-    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage3.webp);
+    width: 230px;
+    background: url(file:///C:/Users/ayaan/Desktop/project/Bike-Webpage/image/bikeimage5.avif);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 109%;
+    background-size: 100%;
 }
 .bikeimage4 {
     height: 200px;
-    width: 240;
-    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage6.jpg);
+    width: 230px;
+    background: url(file:///C:/Users/ayaan/Desktop/project/Bike-Webpage/image/bikeimage5.avif);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 140%;
+    background-size: 100%;
 }
 .bikeimage5 {
     height: 200px;
-    width: 240;
-    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage5.avif);
+    width: 230px;
+    background: url(file:///C:/Users/ayaan/Desktop/project/Bike-Webpage/image/bikeimage5.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
 }
 .bikeimage6 {
     height: 200px;
-    width: 240;
-    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage7.webp);
+    width: 230px;
+    background: url(file:///C:/Users/ayaan/Desktop/project/Bike-Webpage/image/bikeimage5.avif);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 119.5%;
+    background-size: 100%;
 }
 .bikeimage7 {
     height: 200px;
-    width: 240;
-    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage8.webp);
+    width: 230px;
+    background: url(file:///C:/Users/ayaan/Desktop/project/Bike-Webpage/image/bikeimage5.avif);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 104%;
+    background-size: 100%;
 }
 .bikeimage8 {
     height: 200px;
-    width: 240;
-    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/bikeimage4.webp);
+    width: 230px;
+    background: url(file:///C:/Users/ayaan/Desktop/project/Bike-Webpage/image/bikeimage5.avif);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 119.5%;
+    background-size: 100%;
 }
 .biketext {
     padding: 15px;
@@ -221,7 +221,7 @@ html {
 
 .section3 {
     height: 100vh;
-    background: url(file:///C:/Users/ayaan/Desktop/New%20folder/projects/odin%20project/Landing%20Page/background_img35.jpg);
+    background: url(file:///C:/Users/ayaan/Desktop/project/Bike-Webpage/image/background_img35.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
